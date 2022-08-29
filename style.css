@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+
+
+.container{
+  
+        display: grid;
+        justify-items: center;
+     
+       background-color:bisque;
+  
+}
+
+/*      Main Header     */
+
+
+.header {
+    display: flex;
+    width: 1321px;
+    height: 610px;
+    background-color: black;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.header-info {
+   
+    width: 50%;
+    display: grid;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.header-title {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.title{
+    font-size:60px;
+}
+
+.btn-live{
+    height: 56px;
+    width: 187px;
+    left: 246px;
+    top: 529px;
+    border-radius: 5px;
+   background-color: red;
+    color:white;
+    
+}
+.header-image{
+ 
+
+    height: 613px;
+    width: 578px;
+    left: 801px;
+    top: 83px;
+    border-radius: 0px;
+    
+    height: 646px;
+}
+
+.header-image img{
+   
+    width:100%;
+    margin-bottom:0px;
+}
+
+
+/* blog-group */
+
+.blog-group{
+   
+    width: 1321px;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+.button-three {
+    width: 30%;
+    display: grid;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    margin:5px;
+    background-color: rgb(0, 0, 0);
+    justify-items: center;
+    align-items: center;
+}
+
+.group-btn {
+    height: 64px;
+    width: 252px;
+    left: 170px;
+    top: 856px;
+    font: size 20px;
+    font-weight:600;
+    border-radius: 10px;
+}
+.active{
+    background-color:red;
+    color:white;
+}
+
+.blog-list {
+    border-radius: 10px;
+    width: 75%;
+    margin: 2px;
+  
+   
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+.blog{
+    
+    margin: 5px;
+    border: 1px solid #E8E8E8;
+border-radius: 10px;
+    
+ 
+}
+.blog-img img{
+    width: 100%;
+}
+
+.blog-dis {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.blog-btn{
+    height: 32px;
+    margin-top:10px;
+width: 100px;
+left: 496px;
+top: 1021px;
+border-radius: 5px;
+
+}
+
+.blog-name{
+    font-family: Poppins;
+font-size: 18px;
+
+
+}
