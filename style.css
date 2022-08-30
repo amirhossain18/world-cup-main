@@ -232,7 +232,8 @@ font-size: 18px;
     }
     .button-three {
         display: block;
-        width: 100%;
+        width: 50%;
+        display: contents;
     }
 
     .blogs{
@@ -246,6 +247,7 @@ font-size: 18px;
      }
      header.header-top {
         max-width: 576px;
+        width: 75%;
     }
     .header {
         display: flex;
@@ -260,7 +262,7 @@ font-size: 18px;
     .header-title {
         display: block;
         color: white;
-        width: 100%;
+        width: 75%;
         align-items: center;
         font-size: 42px;
         margin: auto;
@@ -271,7 +273,7 @@ font-size: 18px;
         width: 65%;
     }
     .title {
-        font-size: 30px;
+        font-size: 60px;
     }
 
 
@@ -292,6 +294,20 @@ font-size: 18px;
 
     .blog-list {
         border-radius: 10px;
-        width: 98%;
-       
+        width: 85%;
+    }
+    .footer {
+        background-color: black;
+        color: white;
+        width: 90%;}
+
+    .footer-manu {
+        display: flex;
+        align-items: center;
+        align-content: center;
+      
+        flex-direction: column;
+    }
+    #alin{
+        align-items: center;
     }
