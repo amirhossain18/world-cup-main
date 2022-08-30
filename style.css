@@ -247,9 +247,9 @@ font-size: 18px;
      .header {
         display: block;
     }
-     .header {
+    .header {
         display: flex;
-        height: 820px;
+    
         background-color: black;
         border-radius: 30px;
         vertical-align: middle;
