@@ -244,15 +244,15 @@ font-size: 18px;
      .btn-live {
             align-items: center;
      }
-     .header {
-        display: block;
+     header.header-top {
+        max-width: 576px;
     }
     .header {
         display: flex;
-    
         background-color: black;
         border-radius: 30px;
         vertical-align: middle;
+        height: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -260,7 +260,7 @@ font-size: 18px;
     .header-title {
         display: block;
         color: white;
-        width: 65%;
+        width: 100%;
         align-items: center;
         font-size: 42px;
         margin: auto;
@@ -273,3 +273,17 @@ font-size: 18px;
     .title {
         font-size: 30px;
     }
+
+
+    /* blog responsive */
+
+    .blog-group {
+        max-width: 576px;
+        display: block;
+    }
+
+    .group-btn {
+        height: 64px;
+        width: 60%;
+     
+        border-radius: 10px;}
