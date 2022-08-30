@@ -285,5 +285,13 @@ font-size: 18px;
     .group-btn {
         height: 64px;
         width: 60%;
-     
+       background-color: none;
         border-radius: 10px;}
+
+    }
+
+    .blog-list {
+        border-radius: 10px;
+        width: 98%;
+       
+    }
