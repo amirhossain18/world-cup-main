@@ -98,6 +98,7 @@
 }
 
 .group-btn {
+    
     height: 64px;
     width: 252px;
     left: 170px;
@@ -218,16 +219,22 @@ font-size: 18px;
 /* responsive */
 
 @media screen and (max-width: 576px){
-
-  
+  .container{
+    display: block;
+  }
+  .blog-group {
+    max-width: 576px;
+    display: block;
+    width: 100%;
+}
     .header {
         display: flex;
      
-        width: 90%;
+        width: 100%;
         background-color: black;
         border-radius: 30px;
-     
-        margin-left: 30px;
+        height: 570px !important;
+      
         align-items: center;
 
         align-content: flex-end;
@@ -250,6 +257,7 @@ font-size: 18px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2px;
+        width: 100%;
     }
 
      .btn-live {
@@ -280,24 +288,33 @@ font-size: 18px;
     }
     .header-image {
         display: block;
-        width: 100%;
+       
+    width: 55%;
+
     }
     .title {
-        font-size: 60px;
+        font-size: 30px;
     }
-
+    h6 {
+        font-size: 15px;
+    }
+.footer-grid {
+   margin-top:0;
+   margin-bottom:0;
+   
+}
 
     /* blog responsive */
 
     .blog-group {
         max-width: 576px;
         display: block;
-        width: 90%;
-        background-color: aqua;
+        width: 100%;
+     
     }
     .group-btn {
-        height: 64px;
-        width: 60%;
+        height: 65px;
+        width: 100%;
        background-color: none;
         border-radius: 10px;}
 
@@ -321,4 +338,60 @@ font-size: 18px;
     }
     #alin{
         align-items: center;
+    }
+
+    /* -------------------------tab responsive -------------------------------------------------*/
+
+    @media screen and (min-width: 577px) and  (max-width: 767px) { 
+        body{
+            background-color:blue;
+            display: block;
+        }
+        .container{
+            display:block;
+        }
+        .blog-group {
+            display: block;
+        }
+        .button-three{
+            background-color: rgb(187, 149, 149);
+            display: block;
+            height:auto;
+            width: 48%;
+        }
+
+        .group-btn {
+            width: 32%;
+        }
+        .header {
+            width: 767;
+            /* width: 1321px; */
+            width: 88%;
+           
+        }
+        .blogs{
+            display: grid;
+            width: 80%;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2px;
+        }
+        .blog-list {
+            border-radius: 10px;
+            width: 61%;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .btn-live {
+            height: 35px;
+            width: 135px;
+            left: 246px;}
+
+            .footer {
+                background-color: black;
+                color: white;
+                width: 100%;
+            }
     }
