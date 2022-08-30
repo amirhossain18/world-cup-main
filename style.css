@@ -53,6 +53,13 @@
     color:white;
     
 }
+
+.btn-live:hover {
+    background-color: #3e8e41;
+    padding-right: 25px;
+    opacity: 1;
+    right: 0;
+}
 .header-image{
  
 
@@ -106,6 +113,13 @@
    
    
     border-radius: 10px;
+}
+
+.group-btn:hover {
+    background-color: #3e8e41;
+    padding-right: 25px;
+    opacity: 1;
+    right: 0;
 }
 .group-btn a{
     text-decoration: none;
@@ -170,6 +184,11 @@ font-size: 18px;
 
 }
 
+#btn-teb{
+ display:none;
+    margin-left: 100px;
+}
+
 /* footer */
 
 .footer {
@@ -200,7 +219,9 @@ font-size: 18px;
     text-decoration: none;
     color: white;
 }
-
+hr{
+    border: 1px solid #D1D1D1;
+}
 .social-icon {
 
     height: 47px;
@@ -344,7 +365,7 @@ font-size: 18px;
 
     @media screen and (min-width: 577px) and  (max-width: 767px) { 
         body{
-            background-color:blue;
+          
             display: block;
         }
         .container{
@@ -354,7 +375,7 @@ font-size: 18px;
             display: block;
         }
         .button-three{
-            background-color: rgb(187, 149, 149);
+            background-color: white;
             display: block;
             height:auto;
             width: 48%;
@@ -364,20 +385,18 @@ font-size: 18px;
             width: 32%;
         }
         .header {
-            width: 767;
-            /* width: 1321px; */
-            width: 88%;
+            width: 100%;
            
         }
         .blogs{
             display: grid;
-            width: 80%;
+            width: 50%;
             grid-template-columns: repeat(2, 1fr);
             gap: 2px;
         }
         .blog-list {
             border-radius: 10px;
-            width: 61%;
+            width: 100%;
         }
 
         .title {
@@ -394,4 +413,8 @@ font-size: 18px;
                 color: white;
                 width: 100%;
             }
+            #btn-teb{
+                display: inline;
+                   margin-left: 100px;
+               }
     }
